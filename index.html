@@ -17,7 +17,7 @@
 <body>
 
 	<!-- Navbar Start -->
-	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top mb-5">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top mb-5 font-weight-bold">
 		<a class="navbar-brand" href="#">My Profile</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -127,9 +127,11 @@
 						<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
 							<div class="card-body">
 								<ul class="list"  class="text-left">
+									<li><a href="#form">Form</a></li>
 									<li><a href="#facebook">Facebook</a></li>
 									<li><a href="#gmail">Gmail</a></li>
 									<li><a href="#discord">Discord</a></li>
+									
 								</ul>
 							</div>
 						</div>	
@@ -143,9 +145,9 @@
 
 				<!-- Profile Section Start -->
 				<div id="mainprofile" class="container-fluid bg-dark text-dark min-vh-100 p-3 p-md-5">
-					<h1 id="profile" class="font-weight-bold mt-5">MY PROFILE</h1>
+					<h1 id="profile" class="font-weight-bold mt-5 text-white">MY PROFILE</h1>
 					<div class="row justify-content-center">
-						<img id="gradpic" src="./images/erika.jpg" class="mt-3 mt-md-3 rounded-circle img-fluid" >
+						<img id="gradpic" src="./images/erika.jpg" class="mt-3 mt-md-3 rounded-circle img-fluid border border-white" >
 						<div id="objective" class="offset-md-2 col-md-6 bg-info rounded border border-light mt-5">
 							<h1 class="mt-2 font-weight-bold">Ma. Erika Jane Javier</h1>
 							<h3>Full-Stack Developer</h3>
@@ -165,7 +167,7 @@
 					<!-- Educational Background Start -->
 
 					<div class="row justify-content-center mt-5 mb-5">
-						<h2 id="educationalbackground" class="font-weight-bold ">Educational Background</h2>
+						<h2 id="educationalbackground" class="font-weight-bold  text-white">Educational Background</h2>
 						<div class="row justify-content-center mt-5  pl-1">
 							<div id="tertiary" class="card school mr-2 mb-2">
 								<img src="./images/tertiary.png" class="card-img-top img-fluid" alt="...">
@@ -205,7 +207,7 @@
 
 					<!-- My Projects Start-->
 
-					<h2 id="projects" class=" mt-5 mb-5 font-weight-bold">My Projects</h2>
+					<h2 id="projects" class=" mt-5 mb-5 font-weight-bold text-white">My Projects</h2>
 
 					<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 						<ol class="carousel-indicators">
@@ -250,7 +252,7 @@
 					<hr>
 					
 					<!-- Hobbies, Interests and Qualities Start -->
-					<h2 class="font-weight-bold mt-5">About Me</h2>
+					<h2 class="font-weight-bold mt-5 text-white">About Me</h2>
 					<div class="row mt-5 justify-content-center mb-5 header">
 						<div id="headerhobbies" class="col-md-auto p-5 mr-2 mb-3 bg-info rounded border border-white text-light">	
 							<h2 id="hobbies">Hobbies</h2>
@@ -286,16 +288,17 @@
 
 					<div>
 						<div class="p-5 m-3 container-fluid d-none d-md-block">
-							<h2 class="text-center font-weight-bold mb-5">My Location</h2>
+							<h2 class="text-center font-weight-bold mb-5 text-white">My Location</h2>
 							<iframe  id="location" class="border border-dark rounded img-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241.69921928479562!2d121.1678107866667!3d14.242281461945534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73153238d177efd2!2zMTTCsDE0JzMyLjMiTiAxMjHCsDEwJzA0LjYiRQ!5e0!3m2!1sen!2sph!4v1642254781935!5m2!1sen!2sph" allowfullscreen="" loading="lazy"></iframe>
 						</div>
 					</div>
 					<!-- Map End -->
-
-					<div class="">
-						<h2 class="font-weight-bold">Contact Me</h2>
-						<div class=" justify-content-center container-fluid row ml-3 p-1">
-							<form action="https://www.youtube.com/results?search_query=berserk+my+brother" id="form" class=" w-50 border border-light bg-info rounded p-3 mb-1 text-center col-sm-auto d-sm-inline-block mr-5">
+					<hr>
+					<!-- Contact Me Start -->
+					<div class="mr-3">
+						<h2 class="font-weight-bold mb-5 text-white">Contact Me</h2>
+						<div class=" justify-content-center container-fluid row ml-3 p-1 mr-5">
+							<form id="form" action="https://www.youtube.com/results?search_query=berserk+my+brother" id="form" class=" w-100 border border-light bg-info rounded p-3 mb-1 text-center col-sm-auto d-sm-inline-block col-md-6">
 								<div class="form-group text-left">
 									<label class="text-left" for="exampleFormControlInput1">Name</label>
 									<input type="name" class="form-control" id="exampleFormControlInput1" required autocomplete placeholder="Input Your Name Here.">
@@ -311,25 +314,26 @@
 
 								<button>Submit</button>
 							</form>
-							<div class="justify-content-center">
+							<div class="justify-content-center col-md-5 ml-1">
 								<div class="row p-4 text-center text-light">
 									<p class="font-weight-bold" class="text-light">Facebook </p>
-									<div><p class=" text-light"> : erika.jane.022</p></div>
+									<div><p class=" text-white font-weight-bold"> : erika.jane.022</p></div>
 									<a href="https://www.facebook.com/erika.jane.022/" target="_blank"><img id="facebook" class="contactme ml-3 img-fluid" src="./images/fb.png"></a>
 								</div>
 								<div class="row p-4 text-center text-light">
 									<p class="font-weight-bold" class="text-light">Gmail </p>
-									<div><p class=" text-light"> : erikajavier222@gmail.com</p></div>
+									<div><p class=" text-white font-weight-bold"> : erikajavier222@gmail.com</p></div>
 									<a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><img id="gmail" class="contactme ml-3 img-fluid" src="./images/gmail.png"></a>
 								</div>
 								<div class="row p-4 text-center text-light">
 									<p class="font-weight-bold" class="text-light">Discord </p>
-									<div><p class=" text-light"> : erika022#5377</p></div>
+									<div><p class=" text-white font-weight-bold"> : erika022#5377</p></div>
 									<a href="https://discord.com/channels/@me" target="_blank"><img id="discord" class="contactme ml-3 img-fluid" src="./images/discord.png"></a>
 								</div>
 							</div>
 						</div>
 					</div>
+					<!-- Contact Me Start -->
 				</div>
 			</div>
 		</div>
@@ -346,7 +350,7 @@
 				</li>
 			</ul>	
 
-			<p class="font-weight-bold d-none d-md-block pt-3 justify-content-center ml-auto">&#64;2022 Erika Corp. All Rights Reserved</p>
+			<p class="font-weight-bold d-none d-md-block pt-3 justify-content-center ml-auto">&#64;2022 Erika Corp. All Rights Reserved.</p>
 			<div class="ml-auto">
 				<img id="gintoki" src="./images/follow.png">
 				<a href="https://www.facebook.com/erika.jane.022/" target="_blank"> <img  src="https://c.tenor.com/gr64hrykmCkAAAAC/gintama-gintoki.gif" class="rounded w-25" style="height: 60px" >
