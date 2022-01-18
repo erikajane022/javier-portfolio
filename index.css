@@ -2,6 +2,8 @@
 padding: 0;
 box-sizing: borer-box;}
 
+body {font-family: 'Kanit',sans-serif;}
+
 #gradpic {height: 300px;}
  #mainprofile {background-image: url(https://wallpaper8k.com/inside/categories/40/78673_1280x720-84260.jpg);}
 
@@ -13,15 +15,24 @@ box-sizing: borer-box;}
 
 .school {width: 18rem;}
 
-#accordionExample {position: fixed; text-align: left;}
+#accordionExample {position: fixed; text-align: inline-block;}
 
-.projects1 {width: 750px; height:500px}
-#projects2 {height:500px ;}
+.projects1 {width: 350px; height:300px}
 
-#educationalbackground {text-align: left;}
+
 
 #location {width: 600px;
 height: 500px; border: 0;
 }
 
 #gintoki {width:60px; height: 60px;}
+
+.contactme {width: 75px;}
+
+h2 {color: white;}
+h1{color: black;}
+
+a:hover {background-color: green;}
+
+
+
